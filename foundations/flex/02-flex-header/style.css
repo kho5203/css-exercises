@@ -1,6 +1,22 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* for space between left and right links you can also do  */
+  /* .left-links,
+    .right-links {
+    display: flex;
+    margin: 0 8px;} */
+
+  /* For space between top and bottom of the logo you can also do */
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; */
+  padding: 8px;
 }
 
 .logo {
@@ -14,6 +30,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 a {
